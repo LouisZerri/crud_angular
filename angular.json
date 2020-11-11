@@ -49,7 +49,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
@@ -144,6 +146,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "restaurant"
+    }
+  },
+  "defaultProject": "restaurant",
+  "cli": {
+    "analytics": false
+  }
 }
